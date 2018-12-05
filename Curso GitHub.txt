@@ -1,0 +1,27 @@
+Curso GitHub
+
+git tag - visualiza as versões
+git checkout v0.1 - troca para versão desejada
+
+
+git init - inicia o controle de alterações da pasta
+git ls-files - mostras os arquivos controlados pelo git
+git status - mostra o status dos arquivos gerenciados pelo git se estiver como 'Untracked' não esta sendo gerenciado
+git add index.html - adiciona para o gerenciamento de alterações do git
+
+git config -global user.name "Your name" - salva globalmente (para todo o computador) o login
+git config -global user.email "email" - salva globalmente (para todo o computador) o email
+
+
+Estados de um repositório
+working directory representa o estado atual dos arquivos no repositório. Podemos utilizar o comando git add para adicioná-los ao index, ou staging area, que representa uma visão preliminar das modificações que queremos definir para nosso projeto, comparando essas ao HEAD, o último passo completo do nosso projeto, que serve de referência para comparação do trabalho com o working directory.
+
+git log - log historicos 
+git whatchanged - mostra os logs detalhados -p - mostra as linhas  detalhados  dos logs
+
+git remote - mostra quais os repositórios remoto meu repositorio local
+
+git remote add origin https//repositorio.com/repositorio - Vincula o repo local com repo remoto e chama de origin
+
+git push origin - coloca o conteudo local no remoto
+
